@@ -10,6 +10,7 @@ using NuKeeper.Collaboration;
 using NuKeeper.Engine;
 using NuKeeper.Engine.Packages;
 using NuKeeper.Git;
+using NuKeeper.GitBucket;
 using NuKeeper.Gitea;
 using NuKeeper.GitHub;
 using NuKeeper.Gitlab;
@@ -61,7 +62,8 @@ namespace NuKeeper
                 typeof(BitbucketSettingsReader).Assembly,
                 typeof(BitBucketLocalSettingsReader).Assembly,
                 typeof(GitlabSettingsReader).Assembly,
-                typeof(GiteaSettingsReader).Assembly
+                typeof(GiteaSettingsReader).Assembly,
+                typeof(GitBucketSettingsReader).Assembly
             });
 
             container.Collection.Register<ISettingsReader>(settingsRegistration);

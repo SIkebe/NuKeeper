@@ -3,7 +3,7 @@
 [![Build Status](https://dev.azure.com/nukeeper/NuKeeper/_apis/build/status/NuKeeper%20PR%20Build?branchName=master)](https://dev.azure.com/nukeeper/NuKeeper/_build/latest?definitionId=4&branchName=master)
 [![Gitter](https://img.shields.io/gitter/room/NuKeeperDotNet/Lobby.js.svg?maxAge=2592000)](https://gitter.im/NuKeeperDotNet/Lobby)
 [![NuGet](https://img.shields.io/nuget/v/NuKeeper.svg?maxAge=3600)](https://www.nuget.org/packages/NuKeeper/)
-[![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/nukeeper/NuKeeper/4.svg)](https://dev.azure.com/nukeeper/NuKeeper/_build?definitionId=4)   
+[![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/nukeeper/NuKeeper/4.svg)](https://dev.azure.com/nukeeper/NuKeeper/_build?definitionId=4)
 <p align="center">
   <a href="https://nukeeper.com">NuKeeper docs</a> •
   <a href="https://nukeeper.com/basics/installation/">Installation</a> •
@@ -20,7 +20,7 @@ Automagically update NuGet packages in all .NET projects.
 
 ### Installation
 
-Installation is very easy. Just run this command and the tool will be installed. 
+Installation is very easy. Just run this command and the tool will be installed.
 
 Install: `dotnet tool install nukeeper --global`
 
@@ -31,14 +31,14 @@ Install: `dotnet tool install nukeeper --global`
 NuKeeper works for .NET Framework and for .NET Core projects. It also has the ability to target private NuGet feeds.
 
 | .NET Framework     |     .NET Core      |    Private Nuget Feed    |
-|:------------------:|:------------------:|:------------------------:| 
+|:------------------:|:------------------:|:------------------------:|
 | :heavy_check_mark: | :heavy_check_mark: |     :heavy_check_mark:   |
 
 Integration with the following platforms is supported.
 
-|     Github         |     AzureDevOps    |      BitBucket     |       GitLab       |       Gitea        |
-|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
-| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|     Github         |     AzureDevOps    |      BitBucket     |       GitLab       |       Gitea        |      GitBucket     |
+|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
+| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ### Commands
 
@@ -57,7 +57,7 @@ Commands:
   update        Applies relevant updates to a local project.
 ```
 
-[For detailed information about the commands, please check out the wiki](https://github.com/NuKeeperDotNet/NuKeeper/wiki) 
+[For detailed information about the commands, please check out the wiki](https://github.com/NuKeeperDotNet/NuKeeper/wiki)
 
 ### How To Uninstall
 
@@ -87,8 +87,8 @@ nukeeper --version
 
 NuKeeper is licensed under the [Apache License](http://opensource.org/licenses/apache.html)
 
-* Git automation by [LibGit2Sharp](https://github.com/libgit2/libgit2sharp/) licensed under MIT  
-* Github client by [Octokit](https://github.com/octokit/octokit.net) licensed under MIT  
+* Git automation by [LibGit2Sharp](https://github.com/libgit2/libgit2sharp/) licensed under MIT
+* Github client by [Octokit](https://github.com/octokit/octokit.net) licensed under MIT
 * NuGet protocol [NuGet.Protocol](https://github.com/NuGet/NuGet.Client) licensed under Apache License Version 2.0
 * NuGet CommandLine [NuGet commandLine](https://github.com/NuGet/NuGet.Client) licensed under Apache License Version 2.0
 * Command line parsing by [McMaster.Extensions.CommandLineUtils](https://github.com/natemcmaster/CommandLineUtils) licensed under Apache License Version 2.0
